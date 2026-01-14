@@ -98,24 +98,32 @@ A Streamlit-based UI is developed to:
 
 ### Run Streamlit App
 
+## Streamlit Usage
+
 ```bash
 cd PCB_Dataset/streamlit_inference
 pip install -r requirements.txt
 streamlit run app.py
+```
 Results
 
-CNN models successfully classify PCB defects
+The trained CNN model successfully classifies PCB defects.
 
-Streamlit application provides an easy-to-use interface
+Streamlit application allows users to upload PCB images.
 
-The system reduces manual inspection effort
+The predicted defect type is displayed with good accuracy.
 
-Screenshots of results and UI are available in the screenshots/ folder.
+Image processing improves model performance and clarity.
+
+Screenshots of predictions and preprocessing results are available in the screenshots/ folder.
+
 
 Conclusion
 
-This project demonstrates how image processing and deep learning can be effectively applied to automated PCB defect detection.
-The Streamlit deployment makes the solution user-friendly and practical for real-world usage.
+This project demonstrates an effective PCB defect detection system using
+image processing and CNN-based deep learning models. The Streamlit web
+application provides an easy-to-use interface for real-time defect analysis.
+
 
 Future Scope
 
@@ -126,10 +134,3 @@ Use of object detection models (YOLO)
 Deployment on cloud platforms
 
 Expansion to industrial-scale datasets
-
-Author
-
-Harshitha Kothuru
-B.Tech – Artificial Intelligence & Machine Learning
-
-
