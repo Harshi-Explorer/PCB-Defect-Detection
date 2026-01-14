@@ -105,7 +105,7 @@ cd PCB_Dataset/streamlit_inference
 pip install -r requirements.txt
 streamlit run app.py
 ```
-Results
+## Results
 
 The trained CNN model successfully classifies PCB defects.
 
@@ -118,14 +118,14 @@ Image processing improves model performance and clarity.
 Screenshots of predictions and preprocessing results are available in the screenshots/ folder.
 
 
-Conclusion
+## Conclusion
 
 This project demonstrates an effective PCB defect detection system using
 image processing and CNN-based deep learning models. The Streamlit web
 application provides an easy-to-use interface for real-time defect analysis.
 
 
-Future Scope
+## Future Scope
 
 Integration with real-time camera systems
 
